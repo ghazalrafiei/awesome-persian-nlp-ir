@@ -57,6 +57,8 @@
 ## Embeddings
 - [Farsi Poem word2vec model](https://github.com/amnghd/Word2vec-on-Farsi-Literature) - This is a word2vec model deveoped based on a corpus of 48 Persian poets. The corpus consists of 1,216,286 mesras of Farsi poems and 8,102,119 words from which 148,588 are unique.
 - [Sentence Transformers](https://github.com/m3hrdadfi/sentence-transformers) - ST is a collection of vector representations for sentences and paragraphs (also known as sentence embeddings). ST models are based on transformer networks like ParsBERT, ALBERT (soon). They are tuned based on Textual Thematic Similarity datasets such that sentences with similar meanings are close in vector space.
+- [Persian Word2vec Model](https://nlp.johnsnowlabs.com/2020/12/05/persian_w2v_cc_300d_fa.html) - This model is trained on Common Crawl and Wikipedia using fastText. It is trained using CBOW with position-weights, in dimension 300, with character n-grams of length 5, a window of size 5 and 10 negatives.
+These embeddings can be used in multiple tasks like semantic word similarity, named entity recognition, sentiment analysis, and classification.
 
 ## Language Model
 - [ParsBERT: Transformer-based Model for Persian Language Understanding)](https://github.com/hooshvare/parsbert) - It is a monolingual language model based on Google’s BERT architecture for the Persian Language only! This model is pre-trained on a large Persian corpus with various writing styles from numerous subjects (e.g., scientific, novels, news) with more than 2M documents. A large subset of this corpus was crawled manually.
